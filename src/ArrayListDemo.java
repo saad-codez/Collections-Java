@@ -1,6 +1,7 @@
 import jdk.swing.interop.SwingInterOpUtils;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemo {
@@ -75,6 +76,13 @@ public class ArrayListDemo {
         System.out.println("Printing all the elements using enhanced for loop");
         for (Integer number : numbers) {
             System.out.println("Number is " + number);
+        }
+
+        // printing using Iterator
+        System.out.println("Printing all the elements using iterator");
+        Iterator<Integer> iterate = numbers.iterator();
+        while(iterate.hasNext()){
+            System.out.println("The numbers is "+ iterate.next());
         }
 
         // Let's clear the array list
