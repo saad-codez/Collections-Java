@@ -1,0 +1,21 @@
+Collections allows us to store multiple objects in a single unit.
+or, Collections is used to store multiple objects.
+
+Collections is an Interface, which extends Iterable interface, It is extended by few more interfaces, such as;
+1. List
+2. Set
+3. Queue
+
+Each of the interfaces is implemented by few classes
+List, is implemented by: ArrayList, LinkedList, Stack and (Vector (vectors are not used much)).
+Set, is implemented by: HashSet, LinkedHashSet, TreeSet and (EnumSet (Not used much)).
+Queue, is implemented by: ArrayDequeue, PriorityQueue and LinkedList.
+
+Map is a separate interface;
+It is implemented by,
+HashMap,
+TreeMap,
+LinkedHashMap,
+
+
+Iterator is Implemented by ListIterator(not used).
