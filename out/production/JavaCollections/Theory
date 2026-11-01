@@ -7,7 +7,7 @@ Collections is an Interface, which extends Iterable interface, It is extended by
 3. Queue
 
 Each of the interfaces is implemented by few classes
-List, is implemented by: ArrayList, LinkedList, StackDemo and (Vector (vectors are not used much)).
+List, is implemented by: ArrayList, LinkedList, Stack and (Vector (vectors are not used much)).
 Set, is implemented by: HashSet, LinkedHashSet, TreeSet and (EnumSet (Not used much)).
 Queue, is implemented by: ArrayDequeue, PriorityQueue and LinkedList.
 

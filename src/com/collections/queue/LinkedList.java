@@ -1,16 +1,16 @@
+package com.collections.queue;
 
-import java.util.LinkedList;
 import java.util.Queue;
 
 
-public class LinkedListWithQueueDemo {
+public class LinkedList {
     static void main() {
 
         // Works on FIFO(First IN First OUT) principle
         // It has two ends; Rear end, where elements are added and Front end, where elements are removed
         // Think of it like a Ticket queue, the customer who comes first, will leave first after buying tickets
 
-        Queue<Integer> queue = new LinkedList<>() ;
+        Queue<Integer> queue = new java.util.LinkedList<>() ;
 
         // Let's add a number in the queue
         queue.offer(26);
