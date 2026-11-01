@@ -17,6 +17,7 @@ public class StackDemo {
         System.out.println(animals);
 
         // Let's see which animal is on top
+        // Let's see the animal which is ready to be popped out
         System.out.println(animals.peek()); // shows lion because it is last in
 
         // Let's pop(remove) an animal
