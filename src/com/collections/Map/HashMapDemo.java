@@ -1,5 +1,7 @@
 package com.collections.Map;
 
+// Map is not a part of Collection Interface but part of collection framework
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,6 +33,24 @@ public class HashMapDemo {
 
         cities.putIfAbsent(201, "Mumbai");//adds Mumbai if there is no value at key 201
         System.out.println(cities);
+
+        // To iterate the values
+        System.out.println("ITERATION");
+        for(Map.Entry<Integer, String> e : cities.entrySet()){
+            //all values
+            System.out.println(e);
+
+            //only key
+            System.out.print("KEY: ");
+            System.out.println(e.getKey());
+
+            //only value
+            System.out.print("VALUE: ");
+            System.out.println(e.getValue());
+            System.out.println("________________________________");
+
+
+        }
 
 
     }
