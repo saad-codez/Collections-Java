@@ -25,6 +25,13 @@ public class ArraysClass {
         for (int sa : unsortedArray) {
             System.out.print(sa + " ");
         }
+        System.out.println();
 
+        //used to fill the array with values
+        Arrays.fill(numbers, 7);
+
+        for (int sa : numbers) {
+            System.out.print(sa + " ");
+        }
     }
 }
